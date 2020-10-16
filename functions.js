@@ -64,7 +64,6 @@ function hide(group, index){
   toDoList[index].print = false;
 }
 
-
 function createDiv(group, index){
   var my_string = toDoList[index].text;
   const div = document.createElement("div");
