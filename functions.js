@@ -7,25 +7,25 @@ const btnShowTxt = document.getElementById("btnShowTxt");
 const btnDoneTxt = document.getElementById("btnDoneTxt");
 const btnHideTxt = document.getElementById("btnHideTxt");
 
-btnAddTxt.onclick = addTheText; 
-btnShowTxt.onclick = showTheText;
-btnDoneTxt.onclick = doneTheText;
-btnHideTxt.onclick = hideTheText;
+btnAddTxt.onclick = addTheText(); 
+btnShowTxt.onclick = showTheText();
+//btnDoneTxt.onclick = doneTheText;
+btnHideTxt.onclick = hideTheText();
 
 /*----------------------------------------------------------*/
 
 function addTheText() {
   console.log("btn : addThe Text");
   const txt = document.getElementById("txt");
-  function addItem(txt);
-  txt.value = "";
+  addItem(txt);
+  txt.value = " ";
   createDiv(toDoList.length);
 }
 
 //This function creates a new object and pushes it into the array TtoDoList
 function addItem(txt){
   const note = {
-    text : txt.value,
+    text : txt,
     done : false,
     print : false, 
   };
