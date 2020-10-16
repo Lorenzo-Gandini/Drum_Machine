@@ -1,52 +1,79 @@
-.my-body{
-  background-color: #929292;
-  margin: 0;
-  border: 0;
-  padding: 0;
-  height: 100%;
-  width: 100%;
+.cnt{
+  background-color: grey;
+  padding : 15px;
+  border-radius : 5px;
+  width : 500px;
+  height : 500px;
 }
 
-.drum{
-    background: #464344;
-    display: inline-block;
-    color: #f2ede0;
-    box-shadow: 0 10px 70px #444444, inset 0 10px rgba(255, 255, 255, 0.1), inset 0 -10px rgba(0, 0, 0, 0.1);
-    border-radius: 4px;
-    overflow: hidden;
-    padding: 70px 60px 160px;
-    position: relative;
-    top: 25%;
-    width: 1040px;
-    transform: translateY(-50%); 
-    left: 50%;
-    transform: translateX(-50%);
-  
-
+.txt{
+  position : relative;
+  padding : 10px;
+  width : 90%;
+  background-color: #fdd238a3;
+  border-color: #aaffbb;
+  border-radius : 5px;
 }
 
-.bracket_dx, .bracket_sx{
-  background: #262727;
-  position: absolute;
-  box-shadow: inset 0 -10px 0 rgba(0, 0, 0, 0.2), 
-    inset 0 10px 0 rgba(255, 255, 255, 0.2);
-  top: 0; 
-  bottom: 0;
-  width: 40px;
+.btns{
+  margin-top : 25px;
+  position : relative;
+  margin-bottom : 25px;
 }
 
-.bracket_sx{
-  left: 0; 
-  right: auto;
+.add_txt{
+  height : 20px;
+  width: 100px;
+  background: blue;
+  color: white;
+  text-align: center;
+  cursor: pointer;
 }
 
-.bracket_dx{
-  left: auto ; 
-  right: 0;
+.show_txt{
+  height : 20px;
+  width: 100px;
+  background: red;
+  color: white;
+  text-align: center;
+  cursor: pointer;
 }
 
+.done_txt{
+  height : 20px;
+  width: 100px;
+  background: yellow;
+  color: black;
+  text-align: center;
+  cursor: pointer;
+}
 
+.hide_txt{
+  height : 20px;
+  width: 100px;
+  background: green;
+  color: black;
+  text-align: center;
+  cursor: pointer;
+}
 
+.add_txt, .show_txt, .done_txt, .hide_txt{
+  padding : 15px;
+  display: inline;
+}
+.note{
+  margin-top: 10px;
+  padding: 10px;
+  border-color: #0066cc;
+  border-radius : 5px;
+  background-color :#c1eaea;
+  cursor: pointer;
+}
+
+.selected {
+  background-color: green;
+  border-color: darkgreen;
+}
 
 
 
