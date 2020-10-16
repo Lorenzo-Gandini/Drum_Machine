@@ -15,6 +15,7 @@ btnHideTxt.onclick = hideTheText;
 /*----------------------------------------------------------*/
 
 function addTheText() {
+  console.log("btn : addThe Text");
   const txt = document.getElementById("txt");
   function addItem(txt);
   txt.value = "";
